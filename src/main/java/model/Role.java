@@ -4,6 +4,8 @@ public class Role {
     private int _id;
     private String _name;
 
+    public Role() {}
+
     public Role(int _id, String _name) {
         this._id = _id;
         this._name = _name;
